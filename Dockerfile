@@ -8,5 +8,5 @@ CMD npm run build
 
 # Run Steps
 FROM nginx
-EXPOSE 80
+EXPOSE 80 
 COPY --from=builder /app/build /usr/share/nginx/html
